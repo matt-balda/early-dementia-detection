@@ -1,10 +1,14 @@
-# early-dementia-detection
+# Multimodality and Temporality: predicting blood pressure crises in patients with dementia using IoT data and machine learning
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-A short description of the project.
+This project uses multimodal IoT device data to predict adverse events in people living with dementia in the United Kingdom. Our target variable was blood pressure (systolic and diastolic): when a crisis surpassed predefined thresholds, the goal was to notify and intervene early, particularly considering that the population involved is older.
+
+We applied binary classification (0 = no event, 1 = blood pressure crisis) using the following models: Perceptron, XGBoost, CatBoost, Logistic Regression, Naive Bayes, and SVM. SHAP values were also used to explain the impact of each variable on the model and on the prediction outcome.
+
+**Team:** Dayane, Eric and Mateus.
 
 ## Project Organization
 
@@ -33,27 +37,7 @@ A short description of the project.
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── early_dementia_detection   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes early_dementia_detection a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
+└── 
 ```
 
 --------
