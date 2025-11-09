@@ -10,6 +10,8 @@ We applied binary classification (0 = no event, 1 = blood pressure crisis) using
 
 **Team:** Dayane, Eric and Mateus.
 
+**Kaggle:** ( https://www.kaggle.com/datasets/mateusbaldamota/dementia-dataset-activity-and-physiology/code )
+
 ## Project Organization
 
 ```
